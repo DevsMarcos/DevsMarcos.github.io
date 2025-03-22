@@ -25,7 +25,13 @@ body{
 
 }
 
-.btn{
+#btnSend{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.btnReturn{
     width: 130px;
     height: 50px;
     border-radius: 4px;
@@ -33,8 +39,6 @@ body{
     overflow: hidden;
     margin-bottom: 20px;
 }
-
-
 
 .Title{
     margin-bottom: 15px;
@@ -55,20 +59,6 @@ body{
     outline: none;
 }
 
-#registerButton{
-    width: 150px;
-    height: 50px;
-    margin-top: 50px;
-    border-radius: 4px;
-    border: none;
-    justify-content: space-between;
-}
-
-#btnSend{
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-}
 
 .btnRegister{
     width: 130px;
@@ -78,7 +68,7 @@ body{
     overflow: hidden;
 }
 
-.btn:hover{
+.btnReturn:hover{
     background: linear-gradient(-45deg, #ffce51, #ff7253, #fd5754);
 }
 
