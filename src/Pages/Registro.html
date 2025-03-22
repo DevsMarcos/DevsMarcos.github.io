@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../Styles/Register.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+        <div id="form">
+                <button class="btn">
+                    <span>&#8592</span>
+                    <span>Retornar</span>
+                </button>
+ 
+                <h1 class="Title">Cadastro</h1>
+
+                <label for="" class="labelRegister">CPF</label>
+                <div class="input">
+                    <input  type="text" name="CPFRegister" pattern="[0-9]{11}" placeholder="CPF" autofocus required>
+                </div>
+                <br>
+                <label for="">Nome Completo</label>
+                <div class="input">
+                    <input type="text" name="nameRegister" placeholder="Nome" required>
+                </div>
+                <br>
+                <label for="">Data de Nascimento </label>
+                <div class="input">
+                    <input type="date" name="nascDateRegsiter" required>
+                </div>
+                <br>
+                <label for="">Email</label>
+                <div class="input">
+                    <input type="email" name="emailRegister" placeholder="Email" required>
+                </div>
+                <br>
+                <label for="">Senha </label>
+                <div class="input">
+                    <input type="password" name="passwordRegister" placeholder="Digite sua senha" min="8" required>
+                </div>
+                <br>
+                <label for="">Repetir Senha </label>
+                <div class="input">
+                    <input type="password" name="confirmPassword" placeholder="Confirme a sua senha" min="8" required>
+                </div>
+                
+            </form>
+
+            <div id="btnSend">
+                <button class="btnRegister">
+                    <span>Cadastre-se</span>
+                </button>
+            </div>
+        </div>
+       
+</body>
+</html>
