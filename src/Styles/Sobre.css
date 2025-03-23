@@ -19,9 +19,6 @@
     border: 0;
 }
 
-.AboutUsTitle{
-margin-bottom: 50px;
-}
 
 #Title{
     font-family: 'DynaPuff', 'Sans-Serif';
@@ -35,16 +32,7 @@ margin-bottom: 50px;
     padding: 5px;
 }
 
-.divisao{
-    height: 6px;
-    border: none;
-    background: linear-gradient(-45deg, #ffce51, #ff7253, #fd5754);
 
-}
-
-.slogan{
-    font-weight: bold;
-}
 
 #footer{
     display: flex;
@@ -85,6 +73,35 @@ margin-bottom: 50px;
     justify-content: center;
 }
 
+#history{
+    margin-top: 20px;
+    width: 60%;
+    height: 30%;
+    display: flex;
+    padding: 40px;
+    font-size: 16px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); 
+}
+
+.AboutUsTitle{
+    margin-bottom: 50px;
+    }
+
+.divisao{
+    height: 6px;
+    border: none;
+    background: linear-gradient(-45deg, #ffce51, #ff7253, #fd5754);
+
+}
+
+.slogan{
+    font-weight: bold;
+}
+
 .Text{
     font-size: 18px;
 }
@@ -122,20 +139,16 @@ margin-bottom: 50px;
     background-color: white;
 }
 
-#history{
-    margin-top: 20px;
-    width: 60%;
-    height: 30%;
-    display: flex;
-    padding: 40px;
-    font-size: 16px;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); 
-}
+
 
 .linkContainer:hover{
 background-color: #FFCC33;
+}
+
+.contact{
+    font-weight: bold;
+}
+
+.email{
+    color: black;
 }
