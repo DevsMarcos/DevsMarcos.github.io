@@ -123,12 +123,12 @@
 .divisao{
     height: 6px;
     border: none;
-    background: linear-gradient(-45deg, #ffce51, #ff7253, #fd5754);
+    background: linear-gradient(-45deg, #ffce51, #ff7253, rgb(253, 87, 84));
 
 }
 
 .slogan{
-    color: rgba(255, 0, 0, 0.5);
+    color: rgba(253, 87, 84, 1);
     font-weight: bold;
     font-size: 50px;
     text-align: center;
@@ -166,7 +166,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 250px;
+    width: 200px;
     border-radius: 20px;
     background-color: white;
 }
