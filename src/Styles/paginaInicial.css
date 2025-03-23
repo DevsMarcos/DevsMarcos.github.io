@@ -1,0 +1,40 @@
+#ofertas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#FrutasEVerduras{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.promoTitle{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #ff7253;
+}
+
+.oferta{
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); 
+
+}
+
+.titleCategory{
+    margin-bottom: 10px;
+}
+
+.imagePromo{
+    width: 250px;
+    height: 250px;
+}
