@@ -1,0 +1,24 @@
+#formasDePagamento{
+    border-radius: 22px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); 
+    width: 60%;
+    height: 30%;
+}
+
+.titlePaymentForm{
+    margin-bottom: 10px;
+}
+
+.option{
+    font-size: 17px;
+}
+
+li::marker{
+    color:  #fd5754;
+}
