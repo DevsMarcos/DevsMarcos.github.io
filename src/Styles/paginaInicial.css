@@ -5,13 +5,15 @@
     width: 100%;
 }
 
-#FrutasEVerduras{
+.category{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-right: 25%;
+    padding-left: 25%;
+    margin-bottom: 70px;
+
 }
 
 .promoTitle{
@@ -27,14 +29,17 @@
     border-radius: 8px;
     margin-bottom: 5px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); 
+    border: 2px solid;
+    height: min-content;
 
 }
 
 .titleCategory{
-    margin-bottom: 10px;
+    margin-bottom: 60px;
+    margin-top: 20px;
 }
 
 .imagePromo{
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
 }

@@ -4,118 +4,123 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minimercado Preço Joia</title>
+    <!-- Adicione isso no <head> do seu HTML -->
+
+<!-- Adicione isso antes do seu CSS no <head> -->
     <link rel="stylesheet" href="./src/Styles/GlobalStyle.css">
     <link rel="stylesheet" href="./src/Styles/paginaInicial.css">
+    
 </head>
-<body class="container">
-    <header id="header">
+<body class="completo">
+    <header id="cabecalho">
         <div id="logoArea">
-                <img clas class="logo" src="/src/assets/Images/PreçoJois2.jpg" alt="" >
+                <img  class="logo" src="/src/assets/Images/PreçoJois2.jpg" alt="" >
             <p class="slogan">Tudo o que Você Precisa, Pertinho de Você!</p>
             <div class="acessArea">
                 <div class="btnAcess">
-                    <a class="link" href="/./src/Pages/Login.html">Entrar</a>
+                    <a class="atalho" href="/./src/Pages/Login.html">Entrar</a>
                 </div>
                 <div class="btnAcess">
-                    <a class="link" href="/./src/Pages/Registro.html">Registrar</a>
+                    <a class="atalho" href="/./src/Pages/Registro.html">Registrar</a>
                 </div>
             </div>
         </div>
         <nav id="linksHeader">
             <div class="linkContainer">
-                <a class="link" href="/index.html">Home</a>
+                <a class="atalho" href="/index.html">Home</a>
             </div>
             <div class="linkContainer">
-                <a class="link" href="/index.html#ofertas">Ofertas do Dia</a>
+                <a class="atalho" href="/index.html#ofertas">Ofertas do Dia</a>
             </div>
             <div class="linkContainer">
-                <a class="link" href="/src/Pages/Servicos.html">Serviços</a>
+                <a class="atalho" href="/src/Pages/Servicos.html">Serviços</a>
             </div>
             <div class="linkContainer">
-                <a class="link" href="/src/Pages/FormasDePagamento.html">Formas de Pagamento</a>
+                <a class="atalho" href="/src/Pages/FormasDePagamento.html">Formas de Pagamento</a>
             </div>
             <div class="linkContainer">
-                <a class="link" href="/src/Pages/SobreOMercado.html">Sobre nós</a>
+                <a class="atalho" href="/src/Pages/SobreOMercado.html">Sobre nós</a>
             </div>
         </nav>
     </header>
     <hr class="divisao">
+    <div class="corpo">
+        <section id="ofertas">
+            <h2 class="promoTitle">Ofertas do Dia!</h2>
+            <h2 class="titleCategory">Frutas e Verduras</h2>
+            <section class="category">
+                <article class="oferta">
+                    <img class="imagePromo" src="/src/assets/Images/Banana_prata.png" alt="Banana Prata">
+                    <h3>Banana Prata</h3>
+                    <p>R$7,69 Kg</p>
+                </article>
 
-<main class="main">
-    <section id="ofertas">
-        <h2 class="promoTitle">Ofertas do Dia!</h2>
-        <h2 class="titleCategory">Frutas e Verduras</h2>
+                <article class="oferta">
+                    <img class="imagePromo" src="/src/assets/Images/tomate.png" alt="Tomate" >
+                    <h3>Tomate</h3>
+                    <p>R$4,99 Kg</p>
+                </article>
+            </section>
 
-        <section id="FrutasEVerduras">
-            <article class="oferta">
-                <img clas="imagePromo" src="/src/assets/Images/Banana_prata.png" alt="Banana Prata">
-                <h3>Banana Prata</h3>
-                <p>R$7,69 Kg</p>
-            </article>
+            <h2 class="titleCategory">Produtos alimentícios não perecíveis</h2>
+            <section class="category">   
+                <article class="oferta">
+                    <img class="imagePromo" src="/src/assets/Images/macarrao.webp" alt="Detergente Ypê">
+                    <h3>Macarrão Amália 500G</h3>
+                    <p>R$16,00 und</p>
+                </article>
 
-            <article class="oferta">
-                <img clas="imagePromo" src="/src/assets/Images/tomate.png" alt="Tomate">
-                <h3>Tomate</h3>
-                <p>R$4,99 Kg</p>
-            </article>
+                <article class="oferta">
+                    <img class="imagePromo" src="/src/assets/Images/oleo.webp" alt="Sabão em Pó OMO">
+                    <h3>Óleo Soya 900 ml</h3>
+                    <p>R$15,90 und</p>
+                </article>
+            </section>
+
+            <!-- Nova Categoria-->
+            <h2 class="titleCategory">Produtos de higiene e limpeza</h2>
+            <section class="category">
+                <article class="oferta">
+                    <img class="imagePromo" src="/src/assets/Images/Sabonete.webp" alt="Sabonete Infantil">
+                    <h3>Sabonete TheraSkin Centralina Infantil</h3>
+                    <p>R$53,00 und</p>
+                </article>
+
+                <article class="oferta">
+                    <img class="imagePromo" src="/src/assets/Images/OMO.jpg" alt="Shampoo Johnson's">
+                    <h3>Sabão em Pó OMO - 1.6Kg</h3>
+                    <p>R$38,98 und</p>
+                </article>
+            </section>
         </section>
-
-        <section class="ProdutosNaoPereciveis">   
-            <h2>Produtos alimentícios não perecíveis</h2>
-            <article>
-                <img src="/src/assets/Images/macarrao.webp" alt="Detergente Ypê">
-                <h3>Macarrão Amália 500G</h3>
-                <p>R$16,00 und</p>
-            </article>
-
-            <article>
-                <img src="/src/assets/Images/oleo.webp" alt="Sabão em Pó OMO">
-                <h3>Óleo Soya 900 ml</h3>
-                <p>R$15,90 und</p>
-            </article>
-        </section>
-
-        <section class="HigieneELimpeza">
-            <h2>Produtos de higiene e limpeza</h2>
-            <article>
-                <img src="/src/assets/Images/Sabonete.webp" alt="Sabonete Infantil">
-                <h3>Sabonete TheraSkin Centralina Infantil</h3>
-                <p>R$53,00 und</p>
-            </article>
-
-            <article>
-                <img src="/src/assets/Images/OMO.jpg" alt="Shampoo Johnson's">
-                <h3>Sabão em Pó OMO - 1.6Kg</h3>
-                <p>R$38,98 und</p>
-            </article>
-        </section>
-    </section>
-</main>    
+    </div>   
 
     <footer id="footer">
         <nav id="linksFooter">
             <div class="linkContainer">
-                <a class="link" href="/index.html">Home</a>
+                <a class="atalho" href="/index.html">Home</a>
             </div>
             <div class="linkContainer">
-                <a class="link" href="/index.html#ofertas">Ofertas do Dia</a>
+                <a class="atalho" href="/index.html#ofertas">Ofertas do Dia</a>
             </div>
             <div class="linkContainer">
-                <a class="link" href="/src/Pages/Servicos.html">Serviços</a>
+                <a class="atalho" href="/src/Pages/Servicos.html">Serviços</a>
             </div>
             <div class="linkContainer">
-                <a class="link" href="/src/Pages/FormasDePagamento.html">Formas de Pagamento</a>
+                <a class="atalho" href="/src/Pages/Agendametos.html">Agendamento</a>
+            </div>
+            <div class="linkContainer">
+                <a class="atalho" href="/src/Pages/FormasDePagamento.html">Formas de Pagamento</a>
 
             </div>
             <div class="linkContainer">
-                <a class="link" href="/src/Pages/SobreOMercado.html">Sobre nós</a>
+                <a class="atalho" href="/src/Pages/SobreOMercado.html">Sobre nós</a>
             </div>
         </nav>
         <div id="author">
             <p class="contact">Contato: (11) 1234-5678 | <a class="email" href="mailto:contato@bompreco.com.br">Email: contato@bompreco.com.br</a> | WhatsApp: (11) 09876-5432</p>
             <p class="authorDescription">2025 Minimercado Bom Preço - feito por Marcos Pedro de Macêdo. Todos os direitos reservados.</p>
         </div>
-        
     </footer>
 </body>
 </html>

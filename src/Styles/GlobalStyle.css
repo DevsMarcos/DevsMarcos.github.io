@@ -5,13 +5,13 @@
     font-family: 'Roboto', 'Sans-Serif';
 }
 
-.container{
+.completo{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
-.main{
+.corpo{
     display: flex;
     justify-content: center;
     flex: 1;
@@ -63,7 +63,7 @@
     font-family: 'DynaPuff', 'Sans-Serif';
 }
 
-#header{
+#cabecalho{
 
     display: flex;
     flex-direction: column;
@@ -150,7 +150,7 @@
 }
 
 
-.link{
+.atalho{
     display: flex;
     color: black;
     font-weight: bold;
