@@ -19,12 +19,25 @@
     border: 0;
 }
 
+#logoArea{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    width: 100%;
+}
+
+.logo{
+    position: relative;
+}
 
 #Title{
     font-family: 'DynaPuff', 'Sans-Serif';
 }
 
 #header{
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,7 +53,7 @@
     align-items: center;
     justify-content: center;
     padding: 5px;
-    height: 200px;
+    height: 150px;
     background: linear-gradient(-45deg, #ffce51, #ff7253, #fd5754);
 
 
@@ -62,6 +75,7 @@
     margin-top: 15px;
     width: 100%;
     justify-content: space-between;
+    
 }
 
 
@@ -99,7 +113,10 @@
 }
 
 .slogan{
+    color: rgba(255, 0, 0, 0.5);
     font-weight: bold;
+    font-size: 50px;
+    text-align: center;
 }
 
 .Text{
