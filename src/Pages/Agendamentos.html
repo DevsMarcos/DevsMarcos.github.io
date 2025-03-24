@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento</title>
+    <link rel="stylesheet" href="../Styles/GlobalStyle.css">
+    <link rel="stylesheet" href="../Styles/formulário.css">
+
+</head>
+<body class="completo">
+    <header >
+    <div id="logoArea">
+                <img clas class="logo" src="../assets/Images/PreçoJois2.jpg" alt="" >
+            <p class="slogan">Tudo o que Você Precisa, Pertinho de Você!</p>
+            <div class="acessArea">
+                <div class="btnAcess">
+                    <a class="atalho" href="/./src/Pages/Registro.html">Entrar</a>
+                </div>
+                <div class="btnAcess">
+                    <a class="atalho" href="/./src/Pages/Registro.html">Registrar</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <hr class="divisao">
+    <section class="corpo">
+        <form action="" class="formRequest">
+            <div id="options">            
+                <h2>Escolha o formato de entrega que deseja realizar</h2>
+                <div id="inputsRadio">
+                    <input id="retirada" type="radio" name="opt" value="form1" onchange="mostrarFormulario(this.value)">
+                    <label for="retirada" id="firstOption">Retirada no Local</label>
+                    <input id="entrega" type="radio" name="opt" value="form2" onchange="mostrarFormulario(this.value)">
+                    <label for="entrega">Entrega</label>
+                </div>
+              
+            </div>
+
+            <div id="form1" class="form-container">
+                <fieldset id="questionsForm">
+                    <legend>Retirada no Local</legend>
+                    <label for="">Nome de quem realizará a retirada</label>
+                    <input type="text" name="name" placeholder="Nome" required>
+                    <br><br>
+                    <label for="">Sobrenome</label>
+                    <input type="text" name="lastName" placeholder="Sobrenome" required>
+                    <br><br>
+                    <label for="">CPF do retirante</label>
+                    <input type="text" name="CPF" pattern="[0-9]{11}" placeholder="CPF" required>
+                    <br><br>
+                    <label for="">Data e hora de retirada</label>
+                    <input type="datetime-local" name="dateTime" required>
+                </fieldset>
+
+                <div class="submitArea">
+                    <h3>Agendar retirada no Local</h3>
+                    <button class="btnSubmit">
+                        <p class="textBtn">Agendar</p>
+                    </button>
+                </div>
+            </div>
+
+            <div id="form2" class="form-container">
+                <fieldset id="questionsForm">
+                    <legend>Endereço</legend>
+                    <label for=""s>Logradouro</label>
+                    <input type="text" name="street" placeholder="Rua, Avenida ..." required>
+                    <br><br>
+                    <label for="">Numero</label>
+                    <input type="number" name="houseNumber" placeholder="Informe o Número" required>
+                    <br><br>
+                    <label for="">Bairro</label>
+                    <input type="text" name="neighborhood" placeholder="Informe o Bairro" required>
+                    <br><br>
+                    <label for="">Complemento</label>
+                    <input type="text" name="complement" placeholder="Apt, Bloco..." required>
+                    <br><br>
+                    <label for="">CEP</label>
+                    <input type="text" name="CEP" pattern="[0-9]{8}" placeholder="Informe o CEP" required>
+                    <br><br>
+                    <label for="">Cidade</label>
+                    <input type="text" name="city" placeholder="Informe a cidade" required>
+                </fieldset>
+
+                <fieldset id="questionsForm">
+                    <legend>Destinatário</legend>
+                    <label for="">Nome</label>
+                    <input type="text" name="nameDelivery" placeholder="Nome" required>
+                    <br><br>
+                    <label for="">Sobrenome</label>
+                    <input type="text" name="lastNameDlivery" placeholder="Sobrenome" required>
+                    <br><br>
+                    <label for="">CPF</label>
+                    <input type="number" name="CPFDelivery" placeholder="CPF" required>
+                    <br><br>
+                    <label for="">Telefone</label>
+                    <input type="text" name="phoneDelivery" placeholder="Telefone" pattern="[0-9]{11}" required>
+                    <br><br>
+                    <label for="">Email</label>
+                    <input type="email" name="email" placeholder="E-mail" >
+                    <br><br>
+                    <fieldset id="questionsForm">
+                        <legend>Dados de Entrega</legend>
+                        <label for="Data">Data e Hora</label>
+                        <input type="datetime-local" name="dateTimeDeliverey" required>
+
+                    </fieldset>
+                </fieldset>
+
+                <div class="submitArea">
+                    <h3>Agendar Entrega</h3>
+                    <button class="btnSubmit">
+                        <p class="textBtn">Agendar</p>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </section>
+    <footer id="footer">
+        <nav id="linksFooter">
+            <div class="linkContainer">
+                <a class="atalho" href="/index.html">Home</a>
+            </div>
+            <div class="linkContainer">
+                <a class="atalho" href="/index.html#ofertas">Ofertas do Dia</a>
+            </div>
+            <div class="linkContainer">
+                <a class="atalho" href="/src/Pages/Servicos.html">Serviços</a>
+            </div>
+            <div class="linkContainer">
+                <a class="atalho" href="/src/Pages/Agendametos.html">Agendamento</a>
+            </div>
+            <div class="linkContainer">
+                <a class="atalho" href="/src/Pages/FormasDePagamento.html">Formas de Pagamento</a>
+
+            </div>
+            <div class="linkContainer">
+                <a class="atalho" href="/src/Pages/SobreOMercado.html">Sobre nós</a>
+            </div>
+        </nav>
+        <div id="author">
+            <p class="contact">Contato: (11) 1234-5678 | <a class="email" href="mailto:contato@bompreco.com.br">Email: contato@bompreco.com.br</a> | WhatsApp: (11) 09876-5432</p>
+            <p class="authorDescription">2025 Minimercado Bom Preço - feito por Marcos Pedro de Macêdo. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="../Js/JsAgendamento.js"></script>
+
+</body>
+</html>

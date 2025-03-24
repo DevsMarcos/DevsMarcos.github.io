@@ -1,0 +1,73 @@
+
+
+#questionsForm{
+    display: flex;flex-direction: column;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 0.5 solid;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); 
+
+}
+
+#questionsForm input{
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(235, 233, 233);
+    height: 30px;
+    width: 60%;
+    padding: 10px;
+}
+  
+
+#options{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#inputsRadio{
+    margin-top: 20px;
+}
+
+#firstOption{
+    margin-right: 20px;
+}
+
+.submitArea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.form-container{
+    width: 50%;
+}
+
+.btnSubmit{
+    padding: 10px;
+    margin-top: 20px;
+    width: 150px;
+    height: 60px;
+    border: none;
+    
+}
+.textBtn{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+
+}
+
+.formRequest{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+
+.btnSubmit:hover{
+    background: linear-gradient(-45deg, #ffce51, #ff7253, #fd5754);
+
+}

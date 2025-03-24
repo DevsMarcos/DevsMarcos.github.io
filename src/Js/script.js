@@ -6,3 +6,4 @@ const Carousel = new bootstrap.Carousel(myCarouselElement, {
   touch: false,
   pause: "hover"
 })
+
