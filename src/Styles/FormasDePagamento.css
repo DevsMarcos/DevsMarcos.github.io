@@ -1,6 +1,7 @@
 #formasDePagamento{
     border-radius: 22px;
     margin-top: 40px;
+    margin-bottom: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
