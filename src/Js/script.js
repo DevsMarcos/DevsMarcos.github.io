@@ -2,8 +2,7 @@ const myCarouselElement = document.getElementById("myCarousel")
 
 
 const Carousel = new bootstrap.Carousel(myCarouselElement, {
-  interval: 1000,
+  interval: 500,
   touch: false,
-  pause: "hover"
 })
 
